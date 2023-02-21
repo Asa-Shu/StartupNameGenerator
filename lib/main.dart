@@ -9,6 +9,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // ブラウザで見たときのサイト名になる
       title: 'Startup Name Generator',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
       home: RandomWords(),
     );
   }
